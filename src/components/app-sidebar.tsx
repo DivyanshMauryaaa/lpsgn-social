@@ -47,7 +47,7 @@ function AppSidebar() {
                         <Heart />Alerts
                     </Link>
 
-                    <Link href={"/notifications"}
+                    <Link href={"/profile"}
                         className="p-3 font-[500] w-full hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 hover:text-white rounded-lg transition-ease-in-out duration-100 flex items-center justify-center gap-3">
                         <User />Profle
                     </Link>
