@@ -48,7 +48,6 @@ const page = () => {
         }
     }, [user?.id]);
 
-
     return (
         <div className="p-[32px]">
             <p className="text-2xl font-bold">Profile</p>
@@ -62,7 +61,6 @@ const page = () => {
                     <p className="text-xl font-bold">{user?.firstName} {user?.lastName}</p>
                     <p className="text-gray-500">@{user?.username}</p>
                     <p className="mt-2 text-gray-500">Last active: {user?.lastSignInAt?.toLocaleString()}</p>
-                    <p className="text-gray-500">{user?.emailAddresses.toLocaleString()}</p>
                 </div>
             </div>
 
